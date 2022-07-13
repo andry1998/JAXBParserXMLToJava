@@ -13,7 +13,7 @@ public class Main {
             JAXBContext jaxbContext = JAXBContext.newInstance(ResponseFsaType.class);
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
             ResponseFsaType responseFsaType = (ResponseFsaType) unmarshaller.unmarshal(file);
-            System.out.println(responseFsaType);
+            System.out.println(responseFsaType.getRdcTr().getApplicantUl().getDate().isNil());
         } catch (Exception e){
             e.printStackTrace();
         }
