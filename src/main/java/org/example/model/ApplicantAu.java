@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlElement;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ApplicantAu {
-    @XmlElement(name = "ApplicantAu", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+    @XmlElement(name = "nil", namespace = "http://www.w3.org/2001/XMLSchema-instance")
     private Nil applicantAu;
 
     public Nil getApplicantAu() {

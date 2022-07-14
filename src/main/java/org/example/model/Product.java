@@ -146,7 +146,7 @@ public class Product {
         return techRegs;
     }
 
-    public void setTechRegs(TechRegs techRegs) {
-        this.techRegs = techRegs;
-    }
+//    public void setTechRegs(TechRegs techRegs) {
+//        this.techRegs = techRegs;
+//    }
 }

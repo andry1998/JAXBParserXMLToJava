@@ -16,13 +16,13 @@ public class RdcTr {
     private ApplicantUl applicantUl;
 
     @XmlElement(name = "ApplicantFl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-    private ApplicantFl applicantFl;
+    private Nil applicantFl;
 
     @XmlElement(name = "ApplicantAl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-    private ApplicantAl applicantAl;
+    private Nil applicantAl;
 
     @XmlElement(name = "ApplicantAu", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-    private ApplicantAu applicantAu;
+    private Nil applicantAu;
 
     @XmlElement(name = "Manufacturer", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private Manufacturer manufacturer;
@@ -60,27 +60,27 @@ public class RdcTr {
         this.applicantUl = applicantUl;
     }
 
-    public ApplicantFl getApplicantFl() {
+    public Nil getApplicantFl() {
         return applicantFl;
     }
 
-    public void setApplicantFl(ApplicantFl applicantFl) {
+    public void setApplicantFl(Nil applicantFl) {
         this.applicantFl = applicantFl;
     }
 
-    public ApplicantAl getApplicantAl() {
+    public Nil getApplicantAl() {
         return applicantAl;
     }
 
-    public void setApplicantAl(ApplicantAl applicantAl) {
+    public void setApplicantAl(Nil applicantAl) {
         this.applicantAl = applicantAl;
     }
 
-    public ApplicantAu getApplicantAu() {
+    public Nil getApplicantAu() {
         return applicantAu;
     }
 
-    public void setApplicantAu(ApplicantAu applicantAu) {
+    public void setApplicantAu(Nil applicantAu) {
         this.applicantAu = applicantAu;
     }
 

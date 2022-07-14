@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "ResponseFsaType", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/1.0.2")
 
 public class ResponseFsaType {
-    @XmlElement(name = "RdcTr")
+    @XmlElement(name = "RdcTr", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/1.0.2")
     private RdcTr rdcTr;
 
     public RdcTr getRdcTr() {
