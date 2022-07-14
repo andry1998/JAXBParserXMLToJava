@@ -1,16 +1,11 @@
 @XmlSchema(
         xmlns = {@XmlNs(
                 prefix = "fsa",
-                namespaceURI = "urn://x-artefact-rosaccreditation-ru/rdc/1.0.2"
-        ),
+                namespaceURI = "urn://x-artefact-rosaccreditation-ru/rdc/1.0.2"),
                 @XmlNs(
                         prefix = "tns",
-                        namespaceURI = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2"
-                )
-        }
-//        namespace = "urn://x-artefact-rosaccreditation-ru/rdc/1.0.2",
-//        elementFormDefault = XmlNsForm.QUALIFIED
-)
+                        namespaceURI = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+        })
 
 package org.example.model;
 
