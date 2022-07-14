@@ -15,26 +15,26 @@ public class RdcTr {
     @XmlElement(name = "ApplicantUl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private ApplicantUl applicantUl;
 
-//    @XmlElement(name = "ApplicantFl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-//    private ApplicantFl applicantFl;
-//
-//    @XmlElement(name = "ApplicantAl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-//    private ApplicantAl applicantAl;
-//
-//    @XmlElement(name = "ApplicantAu", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-//    private ApplicantAu applicantAu;
-//
-//    @XmlElement(name = "Manufacturer", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-//    private Manufacturer manufacturer;
-//
-//    @XmlElement(name = "Product", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-//    private Product product;
-//
-//    @XmlElement(name = "DeclareAddInfo", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-//    private DeclareAddInfo declareAddInfo;
-//
-//    @XmlElement(name = "CertificationOrgan", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
-//    private CertificationOrgan certificationOrgan;
+    @XmlElement(name = "ApplicantFl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+    private ApplicantFl applicantFl;
+
+    @XmlElement(name = "ApplicantAl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+    private ApplicantAl applicantAl;
+
+    @XmlElement(name = "ApplicantAu", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+    private ApplicantAu applicantAu;
+
+    @XmlElement(name = "Manufacturer", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+    private Manufacturer manufacturer;
+
+    @XmlElement(name = "Product", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+    private Product product;
+
+    @XmlElement(name = "DeclareAddInfo", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+    private Nil declareAddInfo;
+
+    @XmlElement(name = "CertificationOrgan", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+    private CertificationOrgan certificationOrgan;
 
     public Requisites getRequisites() {
         return requisites;
@@ -60,59 +60,59 @@ public class RdcTr {
         this.applicantUl = applicantUl;
     }
 
-//    public ApplicantFl getApplicantFl() {
-//        return applicantFl;
-//    }
-//
-//    public void setApplicantFl(ApplicantFl applicantFl) {
-//        this.applicantFl = applicantFl;
-//    }
-//
-//    public ApplicantAl getApplicantAl() {
-//        return applicantAl;
-//    }
-//
-//    public void setApplicantAl(ApplicantAl applicantAl) {
-//        this.applicantAl = applicantAl;
-//    }
-//
-//    public ApplicantAu getApplicantAu() {
-//        return applicantAu;
-//    }
-//
-//    public void setApplicantAu(ApplicantAu applicantAu) {
-//        this.applicantAu = applicantAu;
-//    }
-//
-//    public Manufacturer getManufacturer() {
-//        return manufacturer;
-//    }
-//
-//    public void setManufacturer(Manufacturer manufacturer) {
-//        this.manufacturer = manufacturer;
-//    }
-//
-//    public Product getProduct() {
-//        return product;
-//    }
-//
-//    public void setProduct(Product product) {
-//        this.product = product;
-//    }
-//
-//    public DeclareAddInfo getDeclareAddInfo() {
-//        return declareAddInfo;
-//    }
-//
-//    public void setDeclareAddInfo(DeclareAddInfo declareAddInfo) {
-//        this.declareAddInfo = declareAddInfo;
-//    }
-//
-//    public CertificationOrgan getCertificationOrgan() {
-//        return certificationOrgan;
-//    }
-//
-//    public void setCertificationOrgan(CertificationOrgan certificationOrgan) {
-//        this.certificationOrgan = certificationOrgan;
-//    }
+    public ApplicantFl getApplicantFl() {
+        return applicantFl;
+    }
+
+    public void setApplicantFl(ApplicantFl applicantFl) {
+        this.applicantFl = applicantFl;
+    }
+
+    public ApplicantAl getApplicantAl() {
+        return applicantAl;
+    }
+
+    public void setApplicantAl(ApplicantAl applicantAl) {
+        this.applicantAl = applicantAl;
+    }
+
+    public ApplicantAu getApplicantAu() {
+        return applicantAu;
+    }
+
+    public void setApplicantAu(ApplicantAu applicantAu) {
+        this.applicantAu = applicantAu;
+    }
+
+    public Manufacturer getManufacturer() {
+        return manufacturer;
+    }
+
+    public void setManufacturer(Manufacturer manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+
+    public Nil getDeclareAddInfo() {
+        return declareAddInfo;
+    }
+
+    public void setDeclareAddInfo(Nil declareAddInfo) {
+        this.declareAddInfo = declareAddInfo;
+    }
+
+    public CertificationOrgan getCertificationOrgan() {
+        return certificationOrgan;
+    }
+
+    public void setCertificationOrgan(CertificationOrgan certificationOrgan) {
+        this.certificationOrgan = certificationOrgan;
+    }
 }
